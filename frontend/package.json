@@ -1,0 +1,28 @@
+{
+  "name": "timika-aman-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.20.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "socket.io-client": "^4.8.3"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^8.57.1",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "vite": "^6.3.5"
+  },
+  "description": "Antarmuka warga & dashboard kepolisian untuk Timika Aman"
+}
